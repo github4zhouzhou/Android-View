@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.v.view.view.RevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/AppTheme.Button.Green"
+        android:onClick="onButtonClick"
+        android:text="滑动冲突场景1-外部拦截" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/AppTheme.Button.Green"
+        android:onClick="onButtonClick"
+        android:text="滑动冲突场景1-内部拦截" />
+
+    <Button
+        android:id="@+id/btn_animation"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="onButtonClick"
+        android:text="Animation"
+        />
+
+    <Button
+        android:id="@+id/btn_layout_animation"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="onButtonClick"
+        android:text="Layout Animation"
+        />
+
+</com.v.view.view.RevealLayout>
